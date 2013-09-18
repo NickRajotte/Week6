@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<!-- Nick Rajotte Week6 --> 
+ 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+<body>
+
+	<form id="main_form" class="form" action="">
+        <h1>Contact Form</h1>
+        First name: <input id="fname" type="text" name="firstname" placeholder="First Name"><span class="error" id="error_fname"></span><br>
+        Last name:  <input id="lname" type="text" name="lastname" placeholder="Last Name"><span class="error" id="error_lname"></span><br>
+        Email Adress: <input id="email" type="text" name="emailaddress" placeholder="sample@email.com"><span class="error" id="error_email"></span><br>
+        Message: <textarea id="comment" cols="41" rows="4" name="message"placeholder="comment"></textarea><span class="error" id="error_comment"></span>
+        <input type="button" value="submit" onclick="submitform();" />
+      </form>
+
+	<div id="confirm">
+		<h1>Confirmation</h1>
+		<div id="confirmation_result"></div>
+
+	</div>
+</body>
+</html>
