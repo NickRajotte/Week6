@@ -1,0 +1,64 @@
+h1{
+		color: black;
+		font-family:Comic-Sans;
+	}
+    
+		form{
+			float:left;
+			background: #E0A750;
+			margin: auto;
+			position: relative;
+			width: 420px;
+			height: 600px;
+			font-family: Tahoma;
+			font-size: 14px;
+			font-style: italic;
+			line-height: 30px;
+			font-weight: bold;
+			color: black;
+			border-radius: 10px;
+			padding: 10px;
+			border: 1px solid #000000;
+		}
+    
+		input{
+			width: 350px;
+			display: inline-block;
+			border: 1px solid #000000;
+			height: 25px;
+			border-radius: 5px;
+		} 
+    
+	textarea{
+		border: 1px solid black;
+		border-radius: 5px;
+		}
+
+	input[type=button] {
+		border: 1px solid black;
+		border-radius : 15px;
+		color: #FFFFFF;
+		background-color: #0066FF;
+		width: 100px;
+		font-weight: bold;
+		}
+
+	input[type=button]:hover {
+		background-color: #0000FF;
+		color: #FF0000;
+		}	
+
+	.error {
+		color: red;
+	}
+	.error_box{
+		border: 2px solid red;
+	}
+
+	.good_box{
+		border: 2px solid green;
+	}
+
+	#confirm{
+		display: none;
+	}
